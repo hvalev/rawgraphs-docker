@@ -3,6 +3,9 @@ name: ci
 on:
   push:
 
+env:
+  BUILD_VERSION: "0.1"
+
 jobs:
   buildx:
     runs-on: ubuntu-latest
@@ -30,8 +33,10 @@ jobs:
         name: Run Buildx
         run: |
           docker buildx build --push \
+          --tag hvalev/rawgraphs::${BUILD_VERSION} \
           --tag hvalev/rawgraphs:latest \
           --platform linux/amd64,linux/arm/v7,linux/arm64 .
+
       - 
         name: Docker Hub Description
         uses: peter-evans/dockerhub-description@v2

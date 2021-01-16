@@ -1,17 +1,16 @@
 # Rawgraphs 1.0 for docker
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/hvalev/rawgraphs-docker/ci)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/hvalev/rawgraphs-docker/build)
 
-Rawgraphs for local use
+Dockerfile to facilitate the use of dockerized rawgraphs through a github workflow.
 
 # Disclaimer
-
-The dockerfile is completely copied from the main repository. This repository is merely for facilitating the download of docker builds through a github workflow.
+The dockerfile is completely copied from the forked repository. 
 
 # docker run
-
 ```
-docker pull hvalev/rawgraphs-docker
+docker pull hvalev/rawgraphs
+docker run -d -p 8080:8080 rawgraphs
 ```
 
 # Build it yourself

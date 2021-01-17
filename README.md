@@ -5,18 +5,17 @@
 ![Docker Stars](https://img.shields.io/docker/stars/hvalev/rawgraphs)
 ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/hvalev/rawgraphs)
 
+Dockerfile to ease the use of rawgraphs through a github workflow.
 
-Dockerfile to facilitate the use of dockerized rawgraphs through a github workflow.
+## Disclaimer
+The dockerfile is copied in full from the forked repository.
 
-# Disclaimer
-The dockerfile is completely copied from the forked repository. 
-
-# Docker Run
+## Docker Run
 ```
 docker run -d -p 8080:8080 --name rawgraphs hvalev/rawgraphs
 ```
 
-# Build it yourself
+## Build it yourself
 ```
 git clone https://github.com/oncyberblog/rawgraphs-docker.git/
 cd rawgraphs-docker

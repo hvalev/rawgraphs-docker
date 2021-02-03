@@ -1,7 +1,6 @@
-name: pull
+name: ci
 
-on:
-  pull:
+on: [pull_request, push]
 
 jobs:
   buildx:

@@ -1,7 +1,6 @@
 # Rawgraphs for docker
 ![build](https://github.com/hvalev/rawgraphs-docker/workflows/build/badge.svg)
 ![Docker Pulls](https://img.shields.io/docker/pulls/hvalev/rawgraphs)
-![Docker Stars](https://img.shields.io/docker/stars/hvalev/rawgraphs)
 ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/hvalev/rawgraphs)
 
 [Rawgraphs](https://rawgraphs.io/) in a docker container! You can use this container to run rawgraphs locally and generate beautiful visualizations of your data for your projects. To see some sample visualization of what is possible, you can visit the [rawgraphs gallery](https://rawgraphs.io/gallery).

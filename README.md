@@ -1,5 +1,5 @@
 # Rawgraphs for docker
-![build](https://github.com/hvalev/rawgraphs-docker/workflows/build/badge.svg)
+[![build](https://github.com/hvalev/rawgraphs-docker/actions/workflows/build.yml/badge.svg)](https://github.com/hvalev/rawgraphs-docker/actions/workflows/build.yml)
 ![Docker Pulls](https://img.shields.io/docker/pulls/hvalev/rawgraphs)
 ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/hvalev/rawgraphs)
 

@@ -7,7 +7,7 @@ RUN npm install -g bower && \
     bower install --allow-root && \
     cp js/analytics.sample.js js/analytics.js
 
-FROM alpine:3.14.2
+FROM alpine:3.14.3
 COPY --from=builder /raw/ /raw/
 RUN apk update && apk add --no-cache python3 && \
     ln -s /usr/bin/python3 /usr/bin/python

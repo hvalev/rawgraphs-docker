@@ -1,4 +1,4 @@
-FROM node:17.1.0-alpine3.12 as builder
+FROM node:17.2.0-alpine3.12 as builder
 RUN apk update && apk add --no-cache git && \
     ln -s /usr/bin/python3 /usr/bin/python && \
     git clone --depth 1 https://github.com/densitydesign/raw.git
